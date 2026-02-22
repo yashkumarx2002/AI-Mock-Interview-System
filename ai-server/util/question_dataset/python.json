@@ -1,0 +1,539 @@
+[
+    {
+      "beginner": [
+        {
+          "question_id": 1,
+          "question_level": "beginner",
+          "question": "What is Python?",
+          "keypoints": ["interpreted", "high level"],
+          "possible_answers": ["Python is an interpreted high level general purpose programming language", "A versatile language known for readability"]
+        },
+        {
+          "question_id": 2,
+          "question_level": "beginner",
+          "question": "How do you print Hello, World in Python?",
+          "keypoints": ["print", "parentheses"],
+          "possible_answers": ["print(Hello, World)", "Use the print function with the string Hello, World"]
+        },
+        {
+          "question_id": 3,
+          "question_level": "beginner",
+          "question": "What is a variable in Python?",
+          "keypoints": ["store", "value"],
+          "possible_answers": ["A named storage location for a value", "A way to store data"]
+        },
+        {
+          "question_id": 4,
+          "question_level": "beginner",
+          "question": "How do you declare a variable in Python?",
+          "keypoints": ["variable name", "assignment", "value"],
+          "possible_answers": ["variable_name = value", "Assign a value to a name"]
+        },
+        {
+          "question_id": 5,
+          "question_level": "beginner",
+          "question": "What are the basic data types in Python?",
+          "keypoints": ["integer", "float", "string", "boolean"],
+          "possible_answers": ["int, float, str, bool", "Numbers, decimals, text, true/false"]
+        },
+        {
+          "question_id": 6,
+          "question_level": "beginner",
+          "question": "What is an integer?",
+          "keypoints": ["whole number", "positive number", "negative number"],
+          "possible_answers": ["A whole number without a decimal point", "A number like 1, 2, 3"]
+        },
+        {
+          "question_id": 7,
+          "question_level": "beginner",
+          "question": "What is a float?",
+          "keypoints": ["decimal"],
+          "possible_answers": ["A number with a decimal point", "A number like 3.14"]
+        },
+        {
+          "question_id": 8,
+          "question_level": "beginner",
+          "question": "What is a string?",
+          "keypoints": ["sequence", "characters", "quotes"],
+          "possible_answers": ["A sequence of characters", "Text enclosed in quotes"]
+        },
+        {
+          "question_id": 9,
+          "question_level": "beginner",
+          "question": "What is a boolean?",
+          "keypoints": ["true", "false"],
+          "possible_answers": ["A value that is either True or False", "A logical value"]
+        },
+        {
+          "question_id": 10,
+          "question_level": "beginner",
+          "question": "What is an operator in Python",
+          "keypoints": ["symbol", "operation", "operand"],
+          "possible_answers": ["A symbol that performs an operation", "Like +, -, *"]
+        },
+        {
+          "question_id": 11,
+          "question_level": "beginner",
+          "question": "Name a few common operators in Python",
+          "keypoints": ["addition", "subtraction", "multiplication", "division", "equal to"],
+          "possible_answers": ["+, -, *, /, =", "Addition, subtraction, multiplication, division, assignment"]
+        },
+        {
+          "question_id": 12,
+          "question_level": "beginner",
+          "question": "What is an expression in Python",
+          "keypoints": ["combination", "values", "operators"],
+          "possible_answers": ["A combination of values and operators", "Something that evaluates to a value"]
+        },
+        {
+          "question_id": 13,
+          "question_level": "beginner",
+          "question": "What is a comment in Python",
+          "keypoints": ["hash", "ignored", "description"],
+          "possible_answers": ["A note explaining code", "Ignored by the interpreter"]
+        },
+        {
+          "question_id": 14,
+          "question_level": "beginner",
+          "question": "How do you write a singleline comment in Python",
+          "keypoints": ["hash"],
+          "possible_answers": ["Using the # symbol", "# This is a comment"]
+        },
+        {
+          "question_id": 15,
+          "question_level": "beginner",
+          "question": "What is an if statement in Python",
+          "keypoints": ["condition", "true"],
+          "possible_answers": ["Executes code conditionally", "Runs code if a condition is true"]
+        },
+        {
+          "question_id": 16,
+          "question_level": "beginner",
+          "question": "What is an else statement in Python",
+          "keypoints": ["false"],
+          "possible_answers": ["Executes code if the if condition is false", "A fallback option"]
+        },
+        {
+          "question_id": 17,
+          "question_level": "beginner",
+          "question": "What is a loop in Python",
+          "keypoints": ["repeat", "code"],
+          "possible_answers": ["Repeats a block of code", "Executes code multiple times"]
+        },
+        {
+          "question_id": 18,
+          "question_level": "beginner",
+          "question": "What is a for loop in Python",
+          "keypoints": ["iterate", "sequence"],
+          "possible_answers": ["Iterates over a sequence", "Loops through items in a list"]
+        },
+        {
+          "question_id": 19,
+          "question_level": "beginner",
+          "question": "What is a while loop in Python",
+          "keypoints": ["condition", "true"],
+          "possible_answers": ["Repeats as long as a condition is true", "Loops until a condition is false"]
+        },
+        {
+          "question_id": 20,
+          "question_level": "beginner",
+          "question": "What is a list in Python",
+          "keypoints": ["ordered", "mutable", "collection"],
+          "possible_answers": ["An ordered, mutable collection of items", "A way to store multiple values"]
+        },
+        {
+          "question_id": 21,
+          "question_level": "beginner",
+          "question": "How do you access an element in a list",
+          "keypoints": ["index", "squarebrackets"],
+          "possible_answers": ["Using the index within square brackets", "my_list[0]"]
+        },
+        {
+          "question_id": 22,
+          "question_level": "beginner",
+          "question": "What is a function in Python",
+          "keypoints": ["reusable code", "block"],
+          "possible_answers": ["A reusable block of code", "A named section of code"]
+        },
+        {
+          "question_id": 23,
+          "question_level": "beginner",
+          "question": "How do you define a function in Python",
+          "keypoints": ["def keyword", "function name", "parentheses", "colon"],
+          "possible_answers": ["Using the def keyword, function name, parentheses, and a colon", "def my_function():"]
+        },
+        {
+          "question_id": 24,
+          "question_level": "beginner",
+          "question": "How do you call a function in Python",
+          "keypoints": ["function name", "parentheses"],
+          "possible_answers": ["Using the function name followed by parentheses"]
+        },
+        {
+          "question_id": 25,
+          "question_level": "beginner",
+          "question": "What is a module in Python",
+          "keypoints": ["file", "code", "functions"],
+          "possible_answers": ["A file containing Python code and functions", "A way to organize code"]
+        }
+      ]
+    },
+    {
+      "intermediate": [
+        {
+          "question_id": 26,
+          "question_level": "intermediate",
+          "question": "Explain the difference between == and is operators in Python",
+          "keypoints": ["value", "identity", "memory"],
+          "possible_answers": ["== checks value equality, is checks identity", "== compares content, is compares memory location"]
+        },
+        {
+          "question_id": 27,
+          "question_level": "intermediate",
+          "question": "What is a dictionary in Python and how is it used",
+          "keypoints": ["key", "value", "mapping"],
+          "possible_answers": ["A collection of keyvalue pairs", "Used to store data with labels"]
+        },
+        {
+          "question_id": 28,
+          "question_level": "intermediate",
+          "question": "How do you handle exceptions in Python",
+          "keypoints": ["try", "except", "finally"],
+          "possible_answers": ["Using try, except, and finally blocks", "Wrapping code that might raise an error"]
+        },
+        {
+          "question_id": 29,
+          "question_level": "intermediate",
+          "question": "What is list comprehension in Python",
+          "keypoints": ["concise", "list", "creation"],
+          "possible_answers": ["A concise way to create lists", "Creating lists in a single line"]
+        },
+        {
+          "question_id": 30,
+          "question_level": "intermediate",
+          "question": "Explain the concept of lambda functions in Python",
+          "keypoints": ["anonymous", "oneline"],
+          "possible_answers": ["Anonymous, oneline functions", "Functions without a name"]
+        },
+        {
+          "question_id": 31,
+          "question_level": "intermediate",
+          "question": "What are decorators in Python",
+          "keypoints": ["modify", "function", "behavior"],
+          "possible_answers": ["Functions that modify the behavior of other functions", "Wrapping functions"]
+        },
+        {
+          "question_id": 32,
+          "question_level": "intermediate",
+          "question": "How does garbage collection work in Python",
+          "keypoints": ["automatic", "memory", "management"],
+          "possible_answers": ["Automatic memory management", "Reclaiming unused memory"]
+        },
+        {
+          "question_id": 33,
+          "question_level": "intermediate",
+          "question": "What is the difference between a list and a tuple in Python",
+          "keypoints": ["mutable", "immutable"],
+          "possible_answers": ["Lists are mutable, tuples are immutable", "Lists can be changed, tuples cannot"]
+        },
+        {
+          "question_id": 34,
+          "question_level": "intermediate",
+          "question": "Explain the use of the with statement in Python",
+          "keypoints": ["resource", "management", "context"],
+          "possible_answers": ["For resource management using context managers", "Ensures proper cleanup"]
+        },
+        {
+          "question_id": 35,
+          "question_level": "intermediate",
+          "question": "What are generators in Python",
+          "keypoints": ["iterator", "yield", "memory"],
+          "possible_answers": ["Iterators that generate values on demand", "Conserve memory"]
+        },
+        {
+          "question_id": 36,
+          "question_level": "intermediate",
+          "question": "How do you import modules in Python",
+          "keypoints": ["import", "from"],
+          "possible_answers": ["Using the import and from keywords", "import module_name or from module_name import function_name"]
+        },
+        {
+          "question_id": 37,
+          "question_level": "intermediate",
+          "question": "Explain the concept of inheritance in Python",
+          "keypoints": ["reuse", "code", "hierarchy"],
+          "possible_answers": ["Allows classes to inherit properties and methods from other classes", "Promotes code reuse"]
+        },
+        {
+          "question_id": 38,
+          "question_level": "intermediate",
+          "question": "What is polymorphism in Python",
+          "keypoints": ["different", "forms", "objects"],
+          "possible_answers": ["Ability of objects to take on many forms", "Using the same method for different types"]
+        },
+        {
+          "question_id": 39,
+          "question_level": "intermediate",
+          "question": "How do you create a class in Python",
+          "keypoints": ["class", "keyword", "attributes", "methods"],
+          "possible_answers": ["Using the class keyword", "class MyClass:"]
+        },
+        {
+          "question_id": 40,
+          "question_level": "intermediate",
+          "question": "What is the purpose of __init__ method in a Python class",
+          "keypoints": ["constructor", "initialize", "object"],
+          "possible_answers": ["Constructor method to initialize objects", "Sets initial values for attributes"]
+        },
+        {
+          "question_id": 41,
+          "question_level": "intermediate",
+          "question": "Explain the concept of encapsulation in Python",
+          "keypoints": ["data", "hiding", "private", "attributes"],
+          "possible_answers": ["Bundling data and methods that operate on that data", "Protecting data from outside access"]
+        },
+        {
+          "question_id": 42,
+          "question_level": "intermediate",
+          "question": "How do you create private attributes in Python",
+          "keypoints": ["double", "underscore", "__"],
+          "possible_answers": ["Using a double underscore prefix", "__my_attribute"]
+        },
+        {
+          "question_id": 43,
+          "question_level": "intermediate",
+          "question": "What is the difference between class methods and static methods in Python",
+          "keypoints": ["cls", "self", "context"],
+          "possible_answers": ["Class methods receive the class as an argument, static methods do not", "Different ways to define methods in a class"]
+        },
+        {
+          "question_id": 44,
+          "question_level": "intermediate",
+          "question": "How do you read and write files in Python",
+          "keypoints": ["open", "read", "write", "close"],
+          "possible_answers": ["Using the open function with read and write modes", "file = open(filename, mode)"]
+        },
+        {
+          "question_id": 45,
+          "question_level": "intermediate",
+          "question": "What is pickling and unpickling in Python",
+          "keypoints": ["serialization", "deserialization", "object"],
+          "possible_answers": ["Serializing and deserializing Python objects", "Converting objects to and from a byte stream"]
+        },
+        {
+          "question_id": 46,
+          "question_level": "intermediate",
+          "question": "Explain how to use virtual environments in Python",
+          "keypoints": ["isolated", "dependencies"],
+          "possible_answers": ["Creating isolated environments for Python projects", "Managing dependencies"]
+        },
+        {
+          "question_id": 47,
+          "question_level": "intermediate",
+          "question": "What is the difference between shallow copy and deep copy",
+          "keypoints": ["copy", "nested", "objects"],
+          "possible_answers": ["Shallow copy creates a new object, deep copy creates a new object and recursively copies all nested objects", "copy module"]
+        },
+        {
+          "question_id": 48,
+          "question_level": "intermediate",
+          "question": "How do you use regular expressions in Python",
+          "keypoints": ["re", "module", "pattern", "matching"],
+          "possible_answers": ["Using the re module", "Matching patterns in strings"]
+        },
+        {
+          "question_id": 49,
+          "question_level": "intermediate",
+          "question": "Explain the Global Interpreter Lock (GIL) in Python",
+          "keypoints": ["threading", "concurrency", "single", "thread"],
+          "possible_answers": ["Allows only one thread to hold control of the Python interpreter", "Limits true parallelism"]
+        },
+        {
+          "question_id": 50,
+          "question_level": "intermediate",
+          "question": "How do you use the unittest module in Python",
+          "keypoints": ["testing", "code", "validation"],
+          "possible_answers": ["Writing unit tests for code", "Validating code functionality"]
+        }
+      ]
+    },
+    {
+      "advanced": [
+        {
+          "question_id": 51,
+          "question_level": "advanced",
+          "question": "Explain asynchronous programming in Python using asyncio",
+          "keypoints": ["eventloop", "coroutines", "async", "await"],
+          "possible_answers": ["Using asyncio library to write concurrent code", "Utilizing async and await keywords"]
+        },
+        {
+          "question_id": 52,
+          "question_level": "advanced",
+          "question": "What are metaclasses in Python",
+          "keypoints": ["class", "creation", "class", "of", "class"],
+          "possible_answers": ["Classes that define how other classes are created", "class of a class"]
+        },
+        {
+          "question_id": 53,
+          "question_level": "advanced",
+          "question": "How does the memory management work in Python",
+          "keypoints": ["private", "heap", "allocation", "deallocation"],
+          "possible_answers": ["Python uses a private heap to manage memory", "Garbage collection and reference counting"]
+        },
+        {
+          "question_id": 54,
+          "question_level": "advanced",
+          "question": "Explain the difference between multiprocessing and multithreading in Python",
+          "keypoints": ["processes", "threads", "GIL", "CPU"],
+          "possible_answers": ["Multiprocessing uses multiple processes, multithreading uses multiple threads", "Multiprocessing bypasses the GIL, allowing true parallelism"]
+        },
+        {
+          "question_id": 55,
+          "question_level": "advanced",
+          "question": "How can you optimize Python code for performance",
+          "keypoints": ["profiling", "algorithms", "data", "structures"],
+          "possible_answers": ["Using profiling tools to identify bottlenecks", "Choosing efficient algorithms and data structures"]
+        },
+        {
+          "question_id": 56,
+          "question_level": "advanced",
+          "question": "What are descriptors in Python and how are they used",
+          "keypoints": ["attribute", "access", "behavior"],
+          "possible_answers": ["Objects that control attribute access", "Used for attribute validation and customization"]
+        },
+        {
+          "question_id": 57,
+          "question_level": "advanced",
+          "question": "Explain the concept of monkey patching in Python",
+          "keypoints": ["runtime", "modification", "code"],
+          "possible_answers": ["Dynamically modifying code at runtime", "Changing the behavior of classes or modules"]
+        },
+        {
+          "question_id": 58,
+          "question_level": "advanced",
+          "question": "How do you implement a custom iterator in Python",
+          "keypoints": ["iter", "next", "protocol"],
+          "possible_answers": ["Implementing the iter and next methods", "Following the iterator protocol"]
+        },
+        {
+          "question_id": 59,
+          "question_level": "advanced",
+          "question": "What are mixins in Python",
+          "keypoints": ["multiple", "inheritance", "functionality"],
+          "possible_answers": ["Classes that provide specific functionality to be mixed into other classes", "A form of multiple inheritance"]
+        },
+        {
+          "question_id": 60,
+          "question_level": "advanced",
+          "question": "Explain how to use Cython to improve Python performance",
+          "keypoints": ["C", "extension", "performance"],
+          "possible_answers": ["Writing Python code that compiles to C", "Improving performance by using C extensions"]
+        },
+        {
+          "question_id": 61,
+          "question_level": "advanced",
+          "question": "How does the import system work in Python",
+          "keypoints": ["modules", "packages", "path"],
+          "possible_answers": ["Finding, loading, and initializing modules", "Using sys.path"]
+        },
+        {
+          "question_id": 62,
+          "question_level": "advanced",
+          "question": "What are abstract base classes (ABCs) in Python",
+          "keypoints": ["interface", "implementation", "inheritance"],
+          "possible_answers": ["Defining interfaces for classes", "Using the abc module"]
+        },
+        {
+          "question_id": 63,
+          "question_level": "advanced",
+          "question": "Explain the concept of cooperative multitasking in Python",
+          "keypoints": ["coroutines", "yielding", "control"],
+          "possible_answers": ["Allowing coroutines to voluntarily yield control", "Using asyncio for cooperative multitasking"]
+        },
+        {
+          "question_id": 64,
+          "question_level": "advanced",
+          "question": "How do you use the concurrent.futures module in Python",
+          "keypoints": ["threading", "processing", "pools"],
+          "possible_answers": ["Running tasks concurrently using threads or processes", "Using thread pools and process pools"]
+        },
+        {
+          "question_id": 65,
+          "question_level": "advanced",
+          "question": "What are the advantages and disadvantages of using dynamic typing in Python",
+          "keypoints": ["flexibility", "errors", "runtime"],
+          "possible_answers": ["Flexibility in code development, potential for runtime errors", "Dynamic typing"]
+        },
+        {
+          "question_id": 66,
+          "question_level": "advanced",
+          "question": "How do you use the functools module for advanced function manipulation",
+          "keypoints": ["wrappers", "partial", "lru_cache"],
+          "possible_answers": ["Using functools for function wrappers, partial functions, and caching", "functools.wraps, functools.partial, functools.lru_cache"]
+        },
+        {
+          "question_id": 67,
+          "question_level": "advanced",
+          "question": "Explain how to implement a custom context manager in Python",
+          "keypoints": ["enter", "exit", "with", "statement"],
+          "possible_answers": ["Defining the enter and exit methods", "Using the with statement with custom context managers"]
+        },
+        {
+          "question_id": 68,
+          "question_level": "advanced",
+          "question": "What is the purpose of the __slots__ attribute in Python classes",
+          "keypoints": ["memory", "usage", "attributes"],
+          "possible_answers": ["Reducing memory usage by predefining attributes", "Preventing dynamic attribute creation"]
+        },
+        {
+          "question_id": 69,
+          "question_level": "advanced",
+          "question": "How do you use the dis module to disassemble Python bytecode",
+          "keypoints": ["bytecode", "inspection", "performance"],
+          "possible_answers": ["Inspecting the bytecode generated by Python", "Analyzing performance bottlenecks"]
+        },
+        {
+          "question_id": 70,
+          "question_level": "advanced",
+          "question": "Explain how to use gdb to debug Python code",
+          "keypoints": ["debugging", "C", "extensions"],
+          "possible_answers": ["Debugging Python code and C extensions using gdb", "Inspecting memory and registers"]
+        },
+        {
+          "question_id": 71,
+          "question_level": "advanced",
+          "question": "What are the trade-offs between using threads vs processes in Python for concurrency?",
+          "keypoints": ["GIL", "memory", "overhead", "CPUbound", "IObound"],
+          "possible_answers": ["Threads are lightweight but limited by GIL, processes bypass GIL but have higher overhead", "Threads better for IO-bound, processes better for CPU-bound tasks"]
+        },
+        {
+          "question_id": 72,
+          "question_level": "advanced",
+          "question": "How can you achieve true parallelism with CPU-bound tasks in Python?",
+          "keypoints": ["multiprocessing", "dask", "joblib"],
+          "possible_answers": ["Using the multiprocessing module or libraries like Dask or Joblib", "Distributing tasks across multiple cores or machines"]
+        },
+        {
+          "question_id": 73,
+          "question_level": "advanced",
+          "question": "Explain the difference between event-driven and thread-based concurrency models.",
+          "keypoints": ["asyncio", "threads", "callbacks", "scalability"],
+          "possible_answers": ["Event-driven uses a single thread and event loop with callbacks, thread-based uses multiple threads", "Event-driven is more scalable but complex, thread-based is simpler but less scalable"]
+        },
+        {
+          "question_id": 74,
+          "question_level": "advanced",
+          "question": "How do you use types hints effectively in Python for larger projects?",
+          "keypoints": ["mypy", "static", "analysis", "readability", "maintainability"],
+          "possible_answers": ["Using type hints to improve code readability and maintainability", "Using mypy for static type analysis"]
+        },
+        {
+          "question_id": 75,
+          "question_level": "advanced",
+          "question": "Describe advanced usages of Python's data model (e.g., customizing attribute access with __getattr__, __setattr__).",
+          "keypoints": ["getattr", "setattr", "delattr", "customization", "proxying"],
+          "possible_answers": ["Using __getattr__ and __setattr__ to intercept attribute access", "Implementing custom behavior for attribute access, like proxying"]
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,539 @@
+[
+  {
+    "beginner": [
+      {
+        "question_id": 1,
+        "question_level": "beginner",
+        "question": "What is JavaScript?",
+        "correct_answer": "JavaScript is a high-level, interpreted programming language primarily used for front-end web development to make web pages interactive. It is also used in back-end development with Nodejs",
+        "keypoints": ["high level", "interpreted", "frontend", "interactive"]
+      },
+      {
+        "question_id": 2,
+        "question_level": "beginner",
+        "question": "How do you declare a variable in JavaScript?",
+        "correct_answer": "Variables are declared using var, let, or const.",
+        "keypoints": ["var", "let", "const"]
+      },
+      {
+        "question_id": 3,
+        "question_level": "beginner",
+        "question": "What are the primitive data types in JavaScript?",
+        "correct_answer": "The primitive data types are String, Number, Boolean, Null, Undefined and BigInt",
+        "keypoints": ["String", "Number", "Boolean", "Null", "Undefined", "BigInt"]
+      },
+      {
+        "question_id": 4,
+        "question_level": "beginner",
+        "question": "What is the difference between == and === in JavaScript?",
+        "correct_answer": "== checks for equality of value with type conversion, while === checks for equality of value and type without type conversion",
+        "keypoints": ["equality", "value", "type"]
+      },
+      {
+        "question_id": 5,
+        "question_level": "beginner",
+        "question": "How do you write a single-line comment and a multi-line comment in JavaScript?",
+        "correct_answer": "Single-line comments start with //, and multi-line comments are enclosed in /* and */",
+        "keypoints": ["single line", "double slash", "multi line", "asterisk", ""]
+      },
+      {
+        "question_id": 6,
+        "question_level": "beginner",
+        "question": "What is a function in JavaScript?",
+        "correct_answer": "A function is a reusable block of code that performs a specific task. It can accept inputs (parameters) and return a value",
+        "keypoints": ["reusable", "code", "parameters", "return"]
+      },
+      {
+        "question_id": 7,
+        "question_level": "beginner",
+        "question": "How do you call a function in JavaScript?",
+        "correct_answer": "A function is called by writing its name followed by parentheses, e.g., myFunction()",
+        "keypoints": ["function name", "parentheses", "myFunction"]
+      },
+      {
+        "question_id": 8,
+        "question_level": "beginner",
+        "question": "What is an array in JavaScript?",
+        "correct_answer": "An array is an ordered list of values, which can be of any data type",
+        "keypoints": ["ordered list", "multiple values", "data type"]
+      },
+      {
+        "question_id": 9,
+        "question_level": "beginner",
+        "question": "How do you access elements in an array?",
+        "correct_answer": "Array elements are accessed using their index, starting from 0, e.g., myArray[0]",
+        "keypoints": ["index", "zero", "square bracket"]
+      },
+      {
+        "question_id": 10,
+        "question_level": "beginner",
+        "question": "What is an object in JavaScript?",
+        "correct_answer": "An object is a collection of key-value pairs, where keys are strings and values can be of any data type",
+        "keypoints": ["key value", "pairs", "strings", "datatype"]
+      },
+      {
+        "question_id": 11,
+        "question_level": "beginner",
+        "question": "How do you access properties of an object?",
+        "correct_answer": "Object properties are accessed using dot notation or bracket notation, e.g., myObject.property or myObject[property]",
+        "keypoints": ["dot notation", "bracket notation"]
+      },
+      {
+        "question_id": 12,
+        "question_level": "beginner",
+        "question": "What is the if statement used for?",
+        "correct_answer": "The if statement is used to execute a block of code if a condition is true",
+        "keypoints": ["condition", "true", "execute", "block"]
+      },
+      {
+        "question_id": 13,
+        "question_level": "beginner",
+        "question": "What is the for loop used for?",
+        "correct_answer": "The for loop is used to repeatedly execute a block of code a specific number of times",
+        "keypoints": ["repeatedly", "execute", "block"]
+      },
+      {
+        "question_id": 14,
+        "question_level": "beginner",
+        "question": "What is the while loop used for?",
+        "correct_answer": "The while loop is used to repeatedly execute a block of code as long as a condition is true",
+        "keypoints": ["repeatedly", "execute", "block", "condition", "true"]
+      },
+      {
+        "question_id": 15,
+        "question_level": "beginner",
+        "question": "What is the purpose of the console.log() method?",
+        "correct_answer": "console.log() is used to display output in the browser's console or terminal for debugging purposes",
+        "keypoints": ["display", "console", "terminal", "debugging"]
+      },
+      {
+        "question_id": 16,
+        "question_level": "beginner",
+        "question": "How do you add an element to the end of an array?",
+        "correct_answer": "We use the push() method to add an element to the end of an array, e.g., myArray.push(element)",
+        "keypoints": ["push", "end"]
+      },
+      {
+        "question_id": 17,
+        "question_level": "beginner",
+        "question": "How do you remove the last element from an array?",
+        "correct_answer": "Use the pop() method to remove the last element from an array, e.g., myArray.pop()",
+        "keypoints": ["pop", "last"]
+      },
+      {
+        "question_id": 18,
+        "question_level": "beginner",
+        "question": "What is the DOM?",
+        "correct_answer": "The DOM (Document Object Model) is a programming interface for HTML and XML documents. It represents the page as a tree structure",
+        "keypoints": ["Document Object Model", "HTML", "XML", "tree structure"]
+      },
+      {
+        "question_id": 19,
+        "question_level": "beginner",
+        "question": "How do you select an element from the DOM using JavaScript?",
+        "correct_answer": "Elements can be selected using methods like getElementById, getElementsByClassName, or querySelector",
+        "keypoints": ["getElementById", "getElementsByClassName", "querySelector"]
+      },
+      {
+        "question_id": 20,
+        "question_level": "beginner",
+        "question": "How do you add an event listener to an element?",
+        "correct_answer": "Use the addEventListener method to attach an event listener to an element, e.g., element.addEventListener(click, myFunction)",
+        "keypoints": ["addEventListener", "click"]
+      },
+       {
+        "question_id": 21,
+        "question_level": "beginner",
+        "question": "What is the purpose of the 'typeof' operator?",
+        "correct_answer": "The typeof operator returns a string indicating the data type of a variable.",
+        "keypoints": ["datatype", "string"]
+      },
+      {
+        "question_id": 22,
+        "question_level": "beginner",
+        "question": "Explain what is meant by hoisting in Javascript?",
+        "correct_answer": "Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.",
+        "keypoints": ["declaration", "scope", "execution"]
+      },
+      {
+        "question_id": 23,
+        "question_level": "beginner",
+        "question": "How can you prevent the default behavior of an event in JavaScript?",
+        "correct_answer": "By using the preventDefault() method on the event object.",
+        "keypoints": ["preventDefault", "event object"]
+      },
+      {
+        "question_id": 24,
+        "question_level": "beginner",
+        "question": "What are the differences between null and undefined in JavaScript?",
+        "correct_answer": "Undefined means a variable has been declared but has not yet been assigned a value. Null is an assignment value. It can be assigned to a variable as a representation of no value.",
+        "keypoints": ["declared", "not assigned", "assignment", "no value"]
+      },
+      {
+        "question_id": 25,
+        "question_level": "beginner",
+        "question": "What is the purpose of the 'use strict' directive?",
+        "correct_answer": "The use strict directive is used to enable strict mode in JavaScript. Strict mode makes it easier to write secure JavaScript by throwing errors when common coding mistakes are made.",
+        "keypoints": ["use strict", "strict mode", "errors", "coding mistakes"]
+      }
+    ]
+  },
+  {
+    "intermediate": [
+      {
+        "question_id": 26,
+        "question_level": "intermediate",
+        "question": "What are closures in JavaScript?",
+        "correct_answer": "A closure is a function that has access to the variables in its outer (enclosing) function's scope, even after the outer function has returned",
+        "keypoints": ["function", "access", "outer", "scope", "returned"]
+      },
+      {
+        "question_id": 27,
+        "question_level": "intermediate",
+        "question": "Explain the concept of prototype inheritance in JavaScript?",
+        "correct_answer": "Prototype inheritance is a mechanism where objects inherit properties and methods from other objects through their prototype chain",
+        "keypoints": ["inherit", "chain", "objects"]
+      },
+      {
+        "question_id": 28,
+        "question_level": "intermediate",
+        "question": "What is the difference between call, apply, and bind?",
+        "correct_answer": "call and apply are used to invoke a function with a given this value and arguments call takes arguments individually, while apply takes arguments as an array bind creates a new function with a bound this value",
+        "keypoints": ["call", "apply", "bind", "this", "individually", "array"]
+      },
+      {
+        "question_id": 29,
+        "question_level": "intermediate",
+        "question": "What is event bubbling and event capturing?",
+        "correct_answer": "Event bubbling is when an event triggers the event listeners on the target element and then bubbles up to its parent elements. Event capturing is when the event listener is triggered on the parent element before the target element",
+        "keypoints": ["target element", "parent element"]
+      },
+      {
+        "question_id": 30,
+        "question_level": "intermediate",
+        "question": "How does the 'this' keyword work in JavaScript?",
+        "correct_answer": "The value of 'this' depends on how a function is called. In global scope, it refers to the global object. In a method, it refers to the object the method is called on",
+        "keypoints": ["global", "object", "method", "called"]
+      },
+      {
+        "question_id": 31,
+        "question_level": "intermediate",
+        "question": "What is the difference between synchronous and asynchronous JavaScript?",
+        "correct_answer": "Synchronous JavaScript executes code line by line, waiting for each operation to complete before moving on Asynchronous JavaScript allows multiple operations to run concurrently without blocking the main thread",
+        "keypoints": ["concurrently", "blocking", "thread"]
+      },
+      {
+        "question_id": 32,
+        "question_level": "intermediate",
+        "question": "Explain the use of promises in JavaScript?",
+        "correct_answer": "Promises are used to handle asynchronous operations. They represent a value that may not be available yet and provide a way to handle success or failure",
+        "keypoints": ["asynchronous", "success", "failure"]
+      },
+      {
+        "question_id": 33,
+        "question_level": "intermediate",
+        "question": "What are async await keywords in JavaScript?",
+        "correct_answer": "async and await are used to simplify asynchronous code async marks a function as asynchronous, and await pauses execution until a promise is resolved",
+        "keypoints": ["asynchronous", "promise", "resolved"]
+      },
+      {
+        "question_id": 34,
+        "question_level": "intermediate",
+        "question": "What is the purpose of the map, filter, and reduce methods in JavaScript?",
+        "correct_answer": "map transforms each element in an array, filter creates a new array with elements that pass a test, and reduce reduces the array to a single value",
+        "keypoints": ["map", "filter", "reduce", "array", "transform", "value"]
+      },
+      {
+        "question_id": 35,
+        "question_level": "intermediate",
+        "question": "Explain the concept of scope in JavaScript?",
+        "correct_answer": "Scope determines the accessibility of variables in different parts of the code. JavaScript has global scope, function scope, and block scope",
+        "keypoints": ["scope", "accessibility", "variables", "global", "function", "block"]
+      },
+      {
+        "question_id": 36,
+        "question_level": "intermediate",
+        "question": "What is a callback function in JavaScript?",
+        "correct_answer": "A callback function is a function passed as an argument to another function and is executed after the outer function completes",
+        "keypoints": ["callback", "argument", "executed", "outer function","completes"]
+      },
+      {
+        "question_id": 37,
+        "question_level": "intermediate",
+        "question": "What are IIFEs (Immediately Invoked Function Expressions)?",
+        "correct_answer": "IIFEs are functions that are executed as soon as they are defined. They are used to create a new scope and prevent variable hoisting",
+        "keypoints": ["IIFEs", "Immediately Invoked Function Expressions", "executed", "scope", "hoisting"]
+      },
+      {
+        "question_id": 38,
+        "question_level": "intermediate",
+        "question": "How do you handle errors in JavaScript using try catch finally blocks?",
+        "correct_answer": "try block contains the code that might throw an error, catch block handles the error, and finally block is always executed regardless of whether an error occurred",
+        "keypoints": ["try", "catch", "finally", "error", "executed"]
+      },
+      {
+        "question_id": 39,
+        "question_level": "intermediate",
+        "question": "What are template literals in JavaScript?",
+        "correct_answer": "Template literals are string literals that allow embedded expressions and multi-line strings using backticks",
+        "keypoints": ["string", "expressions", "backticks"]
+      },
+      {
+        "question_id": 40,
+        "question_level": "intermediate",
+        "question": "Explain the concept of destructuring in JavaScript?",
+        "correct_answer": "Destructuring is a way to extract values from objects or arrays into distinct variables",
+        "keypoints": ["objects", "arrays", "variables", "extract"]
+      },
+       {
+        "question_id": 41,
+        "question_level": "intermediate",
+        "question": "How can you clone an object in JavaScript?",
+        "correct_answer": "Using Object.assign() or the spread syntax (...) for shallow copies, or a deep copy using JSON.parse(JSON.stringify(obj)).",
+        "keypoints": ["Object.assign", "spread", "JSON.parse", "JSON.stringify", "shallow", "deep"]
+      },
+      {
+        "question_id": 42,
+        "question_level": "intermediate",
+        "question": "What is the difference between local storage and session storage?",
+        "correct_answer": "Local storage data persists even after the browser is closed. Session storage data is only available for the duration of the browser session.",
+        "keypoints": ["local storage", "session storage", "persists", "browser session"]
+      },
+      {
+        "question_id": 43,
+        "question_level": "intermediate",
+        "question": "What are generators in JavaScript?",
+        "correct_answer": "Generators are functions that can be exited and later re-entered. Their context (variable bindings) will be saved across re-entrances. They are defined using the function syntax.",
+        "keypoints": ["generators", "function", "exited", "reentered", "context"]
+      },
+      {
+        "question_id": 44,
+        "question_level": "intermediate",
+        "question": "How does the event loop work in JavaScript?",
+        "correct_answer": "The event loop is a mechanism that allows JavaScript to perform non-blocking operations, despite being single-threaded, by offloading operations to the browser or OS whenever possible.",
+        "keypoints": ["event loop", "non blocking", "single threaded"]
+      },
+      {
+        "question_id": 45,
+        "question_level": "intermediate",
+        "question": "Explain the concept of currying in JavaScript?",
+        "correct_answer": "Currying is a technique of evaluating a function with multiple arguments, into a sequence of functions each with a single argument.",
+        "keypoints": ["currying", "multiple arguments", "sequence", "single argument"]
+      },
+      {
+        "question_id": 46,
+        "question_level": "intermediate",
+        "question": "What are higher-order functions?",
+        "correct_answer": "Higher-order functions are functions that can take other functions as arguments or return functions as their results.",
+        "keypoints": ["arguments", "return functions"]
+      },
+      {
+        "question_id": 47,
+        "question_level": "intermediate",
+        "question": "What are the benefits of using modules in JavaScript?",
+        "correct_answer": "Modules allow you to split your code into reusable pieces, improve code organization, and avoid naming conflicts by creating private scopes.",
+        "keypoints": ["reusable", "organize code", "naming conflicts"]
+      },
+      {
+        "question_id": 48,
+        "question_level": "intermediate",
+        "question": "Explain the use of the spread operator in JavaScript?",
+        "correct_answer": "The spread operator (...) allows an iterable such as an array or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected.",
+        "keypoints": ["spread operator", "iterable", "array", "string"]
+      },
+      {
+        "question_id": 49,
+        "question_level": "intermediate",
+        "question": "What is debouncing and throttling and when would you use them?",
+        "correct_answer": "Debouncing and throttling are techniques to improve performance and prevent too many calls to a function. Debouncing delays the execution of a function until after a certain period of inactivity. Throttling ensures a function is only called at most once in a specified period.",
+        "keypoints": ["debouncing", "throttling", "performance", "delay", "inactivity", " called once"]
+      },
+      {
+        "question_id": 50,
+        "question_level": "intermediate",
+        "question": "How do you check if an object is an array?",
+        "correct_answer": "Using Array.isArray(object).",
+        "keypoints": ["isArray", "array"]
+      }
+    ]
+  },
+  {
+    "advanced": [
+      {
+        "question_id": 51,
+        "question_level": "advanced",
+        "question": "Explain the concept of memoization and how it can improve performance?",
+        "correct_answer": "Memoization is an optimization technique that speeds up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again",
+        "keypoints": ["memoization", "cache", "same input"]
+      },
+      {
+        "question_id": 52,
+        "question_level": "advanced",
+        "question": "What are web workers and why are they used?",
+        "correct_answer": "Web workers are scripts that run in the background, separate from the main thread, allowing you to perform computationally intensive tasks without blocking the UI",
+        "keypoints": ["web workers", "background", "blocking"]
+      },
+      {
+        "question_id": 53,
+        "question_level": "advanced",
+        "question": "Explain the concept of service workers and their benefits?",
+        "correct_answer": "Service workers are scripts that run in the background and act as a proxy between the web browser and the network. They enable features like offline support, push notifications, and background synchronization",
+        "keypoints": ["background", "proxy", "offline support", "push notifications"]
+      },
+      {
+        "question_id": 54,
+        "question_level": "advanced",
+        "question": "What is the purpose of the WeakMap and WeakSet data structures?",
+        "correct_answer": "WeakMap and WeakSet are collections that hold weakly held references to objects. If an object is only referenced by these collections, it can be garbage collected",
+        "keypoints": ["WeakMap", "WeakSet", "weakly", "references", "garbage collected"]
+      },
+      {
+        "question_id": 55,
+        "question_level": "advanced",
+        "question": "Explain the different ways to optimize JavaScript code for performance?",
+        "correct_answer": "Optimization techniques include minimizing DOM manipulation, reducing network requests, using efficient algorithms, and leveraging browser caching",
+        "keypoints": ["DOM", "manipulation", "reducing request", "algorithms", "caching"]
+      },
+      {
+        "question_id": 56,
+        "question_level": "advanced",
+        "question": "What is the difference between classical inheritance and prototypal inheritance?",
+        "correct_answer": "Classical inheritance is based on classes and uses inheritance hierarchies. Prototypal inheritance is based on objects and uses prototype chains for inheritance",
+        "keypoints": ["classical inheritance", "classes", "hierarchies", "prototypal inheritance", "objects", "prototype chains"]
+      },
+      {
+        "question_id": 57,
+        "question_level": "advanced",
+        "question": "Explain the concept of the Shadow DOM?",
+        "correct_answer": "The Shadow DOM allows encapsulation of HTML, CSS, and JavaScript, creating a separate DOM subtree for a component that is shielded from the main document",
+        "keypoints": ["Shadow DOM", "encapsulation", "HTML", "CSS", "JavaScript", "subtree"]
+      },
+      {
+        "question_id": 58,
+        "question_level": "advanced",
+        "question": "What are Proxy objects in JavaScript?",
+        "correct_answer": "Proxy objects allow you to intercept and customize operations performed on another object, such as property access, assignment, and function calls",
+        "keypoints": ["Proxy", "intercept", "customize", "operations", "property access", "assignment"]
+      },
+      {
+        "question_id": 59,
+        "question_level": "advanced",
+        "question": "Explain the concept of Transport Layer Security (TLS) and its importance in web security?",
+        "correct_answer": "TLS encrypts data transmitted between a web server and a browser, preventing eavesdropping and ensuring data integrity",
+        "keypoints": ["TLS", "encryption", "server", "browser", "eavesdropping", "integrity"]
+      },
+      {
+        "question_id": 60,
+        "question_level": "advanced",
+        "question": "What is Cross-Site Scripting (XSS) and how can you prevent it?",
+        "correct_answer": "XSS is a security vulnerability where attackers inject malicious scripts into websites viewed by other users. Prevention includes input validation, output encoding, and using Content Security Policy (CSP)",
+        "keypoints": ["security vulnerability", "inject", "scripts", "input validation", "output encoding", "Content Security Policy"]
+      },
+      {
+        "question_id": 61,
+        "question_level": "advanced",
+        "question": "Explain the Same-Origin Policy and Cross-Origin Resource Sharing (CORS)?",
+        "correct_answer": "The Same-Origin Policy restricts web pages from making requests to a different domain than the one which served the web page. CORS allows servers to specify which origins are allowed to access their resources",
+        "keypoints": ["same origin", "CORS", "domain", "requests", "origins", "access resources"]
+      },
+      {
+        "question_id": 62,
+        "question_level": "advanced",
+        "question": "What are the different ways to implement a custom event in JavaScript?",
+        "correct_answer": "Custom events can be created using the Event constructor or the CustomEvent constructor, and dispatched using the dispatchEvent method",
+        "keypoints": ["Event constructor", "CustomEvent constructor", "dispatchEvent"]
+      },
+      {
+        "question_id": 63,
+        "question_level": "advanced",
+        "question": "Explain the concept of JavaScript modules and module bundlers?",
+        "correct_answer": "JavaScript modules allow you to organize code into reusable units. Module bundlers like Webpack and Parcel combine modules into optimized bundles for deployment",
+        "keypoints": ["reusable", "Webpack", "bundles"]
+      },
+      {
+        "question_id": 64,
+        "question_level": "advanced",
+        "question": "What are the advantages of using TypeScript over JavaScript?",
+        "correct_answer": "TypeScript provides static typing, improved code maintainability, better tooling support, and early error detection",
+        "keypoints": ["static typing", "error detection"]
+      },
+      {
+        "question_id": 65,
+        "question_level": "advanced",
+        "question": "Explain the concept of tree shaking in JavaScript?",
+        "correct_answer": "Tree shaking is a technique that removes dead code from JavaScript bundles, reducing their size and improving performance",
+        "keypoints": ["dead code", "bundles", "reduce size", "improve performance"]
+      },
+        {
+        "question_id": 66,
+        "question_level": "advanced",
+        "question": "Explain the concept of differential loading?",
+        "correct_answer": "Differential loading is a modern browser technique that allows you to deliver different bundles of JavaScript to different browsers, based on the features they support.",
+        "keypoints": ["differential loading", "bundles", "different browsers"]
+      },
+      {
+        "question_id": 67,
+        "question_level": "advanced",
+        "question": "What is the purpose of Symbol.iterator?",
+        "correct_answer": "Symbol.iterator is a well-known symbol that specifies a method returning an iterator for the object. It enables objects to be used in for...of loops.",
+        "keypoints": ["iterator", "symbol"]
+      },
+      {
+        "question_id": 68,
+        "question_level": "advanced",
+        "question": "How does the garbage collection work in JavaScript?",
+        "correct_answer": "JavaScript uses automatic garbage collection. The engine periodically identifies and reclaims memory occupied by objects that are no longer reachable or in use.",
+        "keypoints": ["automatic", "reclaim memory"]
+      },
+      {
+        "question_id": 69,
+        "question_level": "advanced",
+        "question": "Explain the concept of progressive web apps?",
+        "correct_answer": "PWAs are web applications that can be installed on a user's device and provide a native app-like experience. They offer features like offline support, push notifications, and access to device hardware.",
+        "keypoints": ["installable", "native", "offline", "push notifications", "device hardware"]
+      },
+      {
+        "question_id": 70,
+        "question_level": "advanced",
+        "question": "Describe the structure and purpose of a manifest.json file in a PWA?",
+        "correct_answer": "The manifest.json file is a JSON file that provides information about a web application for a PWA. It includes the app's name, icons, start URL, display mode, and other metadata needed to install and run the PWA.",
+        "keypoints": ["name", "icons", "start URL", "metadata"]
+      },
+      {
+        "question_id": 71,
+        "question_level": "advanced",
+        "question": "What are the different types of design patterns in JavaScript?",
+        "correct_answer": "Common design patterns include creational (e.g., Singleton, Factory), structural (e.g., Decorator, Facade), and behavioral (e.g., Observer, Strategy).",
+        "keypoints": ["creational", "structural", "behavioral", "Singleton", "Factory", "Decorator", "Facade", "Observer", "Strategy"]
+      },
+      {
+        "question_id": 72,
+        "question_level": "advanced",
+        "question": "How can you optimize rendering performance in React or other JavaScript frameworks?",
+        "correct_answer": "Techniques include using memoization (React.memo), virtualization, code splitting, lazy loading images, and avoiding unnecessary re-renders.",
+        "keypoints": ["memoization", "virtualization", "code splitting", "lazy loading"]
+      },
+      {
+        "question_id": 73,
+        "question_level": "advanced",
+        "question": "What is the purpose of requestAnimationFrame?",
+        "correct_answer": "requestAnimationFrame is a browser API that schedules a function to be called before the next repaint. This ensures smoother animations and better performance compared to using setTimeout or setInterval.",
+        "keypoints": ["schedules", "smooth animations", "better performance"]
+      },
+      {
+        "question_id": 74,
+        "question_level": "advanced",
+        "question": "What are the benefits of server-side rendering (SSR)?",
+        "correct_answer": "SSR improves SEO, initial load time, and accessibility by rendering content on the server and sending fully rendered HTML to the client.",
+        "keypoints": ["SEO", "load time", "HTML"]
+      },
+      {
+        "question_id": 75,
+        "question_level": "advanced",
+        "question": "Explain the concept of WebAssembly?",
+        "correct_answer": "WebAssembly is a low-level binary instruction format for a stack-based virtual machine. It allows code written in languages like C++ or Rust to run at near-native speed in web browsers.",
+        "keypoints": ["binary", "virtual machine", "native speed"]
+      }
+    ]
+  }
+]

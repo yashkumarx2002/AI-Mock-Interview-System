@@ -1,0 +1,11 @@
+.Toastify__spinner {
+  border-color: black !important;
+}
+
+.Toastify__toast--success svg {
+  fill: black !important;
+}
+
+.Toastify__progress-bar--success {
+  background: black !important;
+}

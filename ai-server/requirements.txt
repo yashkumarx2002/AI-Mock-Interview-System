@@ -1,0 +1,36 @@
+fastapi
+uvicorn
+opencv-python
+mediapipe
+numpy
+Pillow
+websockets
+
+# Core Web Framework
+Flask
+flask-cors
+
+# Database
+pymongo
+
+# AI/ML Libraries  
+google-generativeai
+
+
+# For natural language processing
+nltk
+spacy
+transformers
+
+# For text similarity/embedding
+sentence-transformers
+scikit-learn
+
+# For text preprocessing
+regex
+
+# Environment variable management
+python-dotenv
+
+# Database
+pymongo
